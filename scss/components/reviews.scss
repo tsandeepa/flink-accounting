@@ -32,6 +32,13 @@
           }
           .caraousel-info {
             text-align: center;
+            h5 {
+              font-size: 18px;
+            }
+            p {
+              font-style: italic;
+              font-size: 15px;
+            }
           }
         }
       }
@@ -40,6 +47,10 @@
       max-width: 400px;
       h5 {
         font-size: 30px;
+        margin-bottom: 30px;
+      }
+      p {
+        color: #797979;
       }
     }
 

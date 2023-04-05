@@ -60,12 +60,26 @@
   text-align: center;
 }
 
+.reviews .cs-section .rv-caraousel .carousel .carousel-item .caraousel-info h5 {
+  font-size: 18px;
+}
+
+.reviews .cs-section .rv-caraousel .carousel .carousel-item .caraousel-info p {
+  font-style: italic;
+  font-size: 15px;
+}
+
 .reviews .cs-section .rv-desc {
   max-width: 400px;
 }
 
 .reviews .cs-section .rv-desc h5 {
   font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.reviews .cs-section .rv-desc p {
+  color: #797979;
 }
 
 .reviews::after {
