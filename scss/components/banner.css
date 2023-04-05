@@ -1,0 +1,39 @@
+.banner {
+  padding: 30px 0;
+  min-height: 500px;
+}
+
+.banner h1 {
+  color: #2f3542;
+  font-weight: 700;
+  max-width: 480px;
+}
+
+.banner h1 span {
+  font-size: 43px;
+  color: #6369c8;
+  letter-spacing: 2px;
+}
+
+.banner p {
+  color: #888888;
+  margin: 32px 0;
+}
+
+.banner__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner__img img {
+  width: 100%;
+}
+
+.banner .row {
+  min-height: 500px;
+}
+/*# sourceMappingURL=banner.css.map */

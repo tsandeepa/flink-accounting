@@ -1,0 +1,118 @@
+body {
+  background: transparent;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.wrapper {
+  background: #ffffff57;
+  margin-bottom: 50px;
+}
+
+.title-p {
+  text-align: center;
+  color: #727272;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sec-title-main {
+  font-size: 38px;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.section-wrap-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 90px;
+  margin-bottom: 150px;
+  -webkit-box-shadow: 0 10px 14px #0000000f;
+          box-shadow: 0 10px 14px #0000000f;
+}
+
+.btn-link {
+  background: #1f2c4c;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  color: #fff;
+  background: #1f2c4cdc;
+}
+
+.btn-primary {
+  background: #1f2c4c;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: #1f2c4cdc;
+}
+
+.form-group .form-control {
+  padding: 14px;
+  border-radius: 15px;
+}
+
+.form-group label {
+  font-size: 15px;
+  color: #979797;
+  margin-bottom: 15px;
+}
+
+.bg-sec-2 {
+  background-image: url("../images/sec-bg-2.svg");
+  background-repeat: no-repeat;
+}
+
+.bg-sec-3 {
+  background-image: url("../images/sec-bg-3.svg");
+  background-repeat: no-repeat;
+}
+
+.swb-1::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/shapes-1.svg);
+  z-index: -1;
+}
+
+.swb-2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/shapes-2.svg);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swb-3::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/shapes-3.svg);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.4;
+}
+/*# sourceMappingURL=common.css.map */

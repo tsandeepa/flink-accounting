@@ -1,0 +1,85 @@
+.reviews {
+  padding: 100px 0;
+  margin: 60px 0;
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0)), to(#c3d3d3));
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #c3d3d3 100%);
+  position: relative;
+}
+
+.reviews h4 {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.reviews .cs-section {
+  padding: 40px 0;
+}
+
+.reviews .cs-section > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reviews .cs-section .rv-caraousel {
+  width: 100%;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-flex-item-align: end;
+      align-self: end;
+}
+
+.reviews .cs-section .rv-caraousel .carousel {
+  width: 100%;
+}
+
+.reviews .cs-section .rv-caraousel .carousel .carousel-item {
+  text-align: center;
+}
+
+.reviews .cs-section .rv-caraousel .carousel .carousel-item img {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.reviews .cs-section .rv-caraousel .carousel .carousel-item .caraousel-info {
+  text-align: center;
+}
+
+.reviews .cs-section .rv-desc {
+  max-width: 400px;
+}
+
+.reviews .cs-section .rv-desc h5 {
+  font-size: 30px;
+}
+
+.reviews::after {
+  content: '';
+  display: block;
+  background-image: url("../../images/rev-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  opacity: 0.3;
+  background-position-x: 38%;
+}
+/*# sourceMappingURL=reviews.css.map */

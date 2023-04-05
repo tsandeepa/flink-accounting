@@ -1,0 +1,22 @@
+.our-clients {
+  padding: 70px 0;
+}
+
+.our-clients h4 {
+  text-align: center;
+  margin: 0 0 60px;
+}
+
+.our-clients ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.our-clients ul li img {
+  height: 100px;
+}
+/*# sourceMappingURL=our-clients.css.map */
