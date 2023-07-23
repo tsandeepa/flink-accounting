@@ -29,4 +29,9 @@
   cursor: pointer;
   font-size: 16px;
 }
+
+.header .menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
 /*# sourceMappingURL=header.css.map */

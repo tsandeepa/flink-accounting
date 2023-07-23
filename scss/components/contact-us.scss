@@ -12,11 +12,13 @@
 .contat-phone {
   margin-bottom: 40px;
   &__box {
-    border: 1px solid #ccc;
+    background: #eeeeee6e;
     padding: 30px 40px;
     border-radius: 35px;
     display: flex;
     justify-content: space-around;
+    background-image: url('../../images/contact-bg.svg');
+    background-size: cover;
     >div {
       flex: 1;
       text-align: center;

@@ -15,7 +15,7 @@
 }
 
 .contat-phone__box {
-  border: 1px solid #ccc;
+  background: #eeeeee6e;
   padding: 30px 40px;
   border-radius: 35px;
   display: -webkit-box;
@@ -23,6 +23,8 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-image: url("../../images/contact-bg.svg");
+  background-size: cover;
 }
 
 .contat-phone__box > div {

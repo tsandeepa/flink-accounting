@@ -23,16 +23,31 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.service-categories .main-services .service-view:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.service-categories .main-services .service-view:hover h5 {
+  color: #272864;
 }
 
 .service-categories .main-services .service-view img {
   margin-right: 20px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .service-categories .main-services .service-view h5 {
   margin: 0;
   font-size: 16px;
   color: #5D778F;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .services {
@@ -52,6 +67,11 @@
 
 .services .service-desc p {
   color: #737373;
+}
+
+.services .service-desc p span {
+  color: #7459b1;
+  font-weight: 500;
 }
 
 .services .service-img {

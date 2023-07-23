@@ -79,6 +79,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.bg-sec-4 {
+  background-image: url("../images/sec-bg-4.svg");
+  background-repeat: no-repeat;
+}
+
+.bg-sec-5 {
+  background-image: url("../images/sec-bg-5.svg");
+  background-repeat: no-repeat;
+}
+
 .swb-1::before {
   content: '';
   position: absolute;
