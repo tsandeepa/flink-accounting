@@ -34,6 +34,43 @@
     }
   }
 }
+.sec-about {
+  .title-p {
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h3 {
+    text-align: center;
+    margin: 30px 0;
+    color: #5e5ea1;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  &__options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 100px 0;
+  }
+  &__feature {
+    text-align: center;
+    background: #f8f8f8;
+    padding: 28px;
+    background: rgb(25, 121, 167);
+    background: linear-gradient(326deg, rgba(25, 121, 167, 0) 0%, rgb(238 235 242 / 37%) 100%);
+    border-radius: 30px;
+    h4 {
+      margin: 20px 0;
+      font-size: 20px;
+      color: #574d7c;
+    }
+    p {
+      color: #868686;
+    }
+  }
+
+}
 .services {
   position: relative;
   .service-desc {
@@ -49,6 +86,7 @@
       span {
         color: #7459b1;
         font-weight: 500;
+        font-size: 17px;
       }
     }
   }
@@ -62,4 +100,18 @@
       max-width: 275px;
     }
   }
+}
+
+
+@media (max-width: 800px) {
+  .main-services {
+    flex-direction: column;
+    .service-view {
+      margin: 15px 0;
+      h5 {
+        font-size: 18px !important;
+      }
+    }
+  }
+
 }

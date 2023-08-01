@@ -34,4 +34,11 @@
   text-decoration: none;
   color: inherit;
 }
+
+@media (min-width: 800px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+}
 /*# sourceMappingURL=header.css.map */

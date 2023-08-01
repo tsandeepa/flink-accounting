@@ -50,6 +50,43 @@
   transition: all 0.5s ease;
 }
 
+.sec-about .title-p {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sec-about h3 {
+  text-align: center;
+  margin: 30px 0;
+  color: #5e5ea1;
+  font-weight: 300;
+  font-size: 22px;
+}
+
+.sec-about__options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 100px 0;
+}
+
+.sec-about__feature {
+  text-align: center;
+}
+
+.sec-about__feature h4 {
+  margin: 20px 0;
+  font-size: 20px;
+  color: #574d7c;
+}
+
+.sec-about__feature p {
+  color: #868686;
+}
+
 .services {
   position: relative;
 }
@@ -72,6 +109,7 @@
 .services .service-desc p span {
   color: #7459b1;
   font-weight: 500;
+  font-size: 17px;
 }
 
 .services .service-img {
@@ -90,5 +128,20 @@
 .services .service-img img {
   width: 80%;
   max-width: 275px;
+}
+
+@media (max-width: 800px) {
+  .main-services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-services .service-view {
+    margin: 15px 0;
+  }
+  .main-services .service-view h5 {
+    font-size: 18px !important;
+  }
 }
 /*# sourceMappingURL=services.css.map */

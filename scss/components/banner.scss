@@ -1,6 +1,7 @@
 .banner {
   padding: 30px 0;
   min-height: 500px;
+
   h1 {
     color: #2f3542;
     font-weight: 700;
@@ -25,4 +26,19 @@
   .row {
     min-height: 500px;
   }
+}
+
+@media (max-width: 800px) {
+  .banner__desc {
+    padding: 54px 0 0;
+    h1 {
+      text-align: center;
+      font-size: 25px;
+      line-height: 42px;
+      span {
+        font-size: 32px;
+      }
+    }
+  }
+
 }

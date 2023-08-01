@@ -83,8 +83,10 @@ body {
 
 
 .bg-sec-2 {
-  background-image: url('../images/sec-bg-2.svg');
-  background-repeat: no-repeat;
+  .services {
+    background-image: url('../images/sec-bg-2.svg');
+    background-repeat: no-repeat;
+  }
 }
 
 .bg-sec-3 {
@@ -142,5 +144,33 @@ body {
     background-position: center;
     background-size: contain;
     opacity: 0.4;
+  }
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.sc-top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 3px 5px 20px #ccc;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    img {
+      opacity: 1;
+    }
+  }
+  img {
+    width: 58%;
+    opacity: 0.6;
   }
 }

@@ -12,13 +12,12 @@
 <body>
   <div class="wrapper">
     <div class="container">
-      <div class="header">
+      <div class="header" id="header">
         <div class="logo">
           <img src="images/logo.png" alt="">
         </div>
         <div class="menu">
           <ul>
-            <li>Home</li>
             <li>About</li>
             <li class="btn-link"><a href="#f-contact">Contact</a></li>
           </ul>
@@ -27,18 +26,17 @@
     </div>
     <div class="banner">
       <div class="container">
-        <div class="row">
-          <div class="col-5 d-flex align-items-center">
-            <div class="banner_desc">
+        <div class="row flex-md-row-reverse">
+          <div class="col-md-7 banner__img">
+            <img src="images/bg-3.png" alt="">
+          </div>
+          <div class="col-md-5 d-flex align-items-center">
+            <div class="banner__desc">
               <h1>Partner with industry <span> experts </span>for your accounting needs and focus on
                 <span>growing</span>
                 your business.
               </h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet?</p>
             </div>
-          </div>
-          <div class="col-7 banner__img">
-            <img src="images/bg-3.png" alt="">
           </div>
         </div>
       </div>
@@ -69,6 +67,40 @@
             <h5>Legal & <br />
               Compliance</h5>
           </a>
+        </div>
+      </div>
+      <div class="sec-about">
+        <h2 class="sec-title-main">About Us</h2>
+        <p class="title-p">At Flink Accounting, we are your trusted partner in navigating the complex financial
+          landscape. With a
+          commitment to excellence, our expert team of accounting professionals is dedicated to empowering businesses of
+          all sizes and industries. Our vision is to be the driving force behind your success, providing tailored
+          financial solutions that align with your goals.</p>
+        <div class="sec-about__sub">
+          <div class="sec-about__options">
+            <div class="sec-about__feature">
+              <img src="images/experience.png" alt="">
+              <h4>Expertise</h4>
+              <p>Our team comprises highly skilled and experienced professionals who bring a wealth of knowledge across
+                diverse industries. From bookkeeping to tax advisory, we offer comprehensive services to meet your
+                specific needs.
+              </p>
+            </div>
+            <div class="sec-about__feature">
+              <img src="images/public-relation.png" alt="">
+              <h4> Client-Centric Approach</h4>
+              <p> Your success is our priority. We take the time to understand your business inside out, enabling us to
+                deliver personalized solutions that foster growth and sustainability.
+              </p>
+            </div>
+            <div class="sec-about__feature">
+              <img src="images/innovation.png" alt="">
+              <h4>Technology-Driven Solutions</h4>
+              <p>Embracing cutting-edge technologies, we optimize processes for efficiency and accuracy. Our use of
+                advanced accounting software ensures real-time access to financial data and seamless collaboration.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -505,7 +537,7 @@
     </div>
 
   </div>
-
+  <a class="sc-top" href="#header" title="Scroll Top"><img src="images/up.png" alt=""></a>
   <footer>
     <div class="container">
       <span>© Copyright 2023 | Flink Accounting</span>
