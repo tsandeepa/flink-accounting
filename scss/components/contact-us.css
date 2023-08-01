@@ -43,4 +43,15 @@
   color: #7e7e7e;
   letter-spacing: 1.5px;
 }
+
+@media (max-width: 800px) {
+  .contact {
+    margin: 0;
+    padding-top: 40px;
+  }
+  .contact h4 {
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+}
 /*# sourceMappingURL=contact-us.css.map */

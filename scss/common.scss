@@ -174,3 +174,17 @@ body {
     opacity: 0.6;
   }
 }
+
+@media (max-width: 800px) {
+  .sec-title-main {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  .section-wrap-box {
+    .row {
+      &:nth-child(odd) {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}

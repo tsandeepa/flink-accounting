@@ -71,3 +71,21 @@
   }
 
 }
+
+
+@media (max-width: 800px) {
+  .reviews {
+    margin-bottom: 0;
+    h4 {
+      font-size: 34px;
+    }
+    .caraousel-info {
+      display: block !important;
+    }
+    .rv-desc {
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
+
+}

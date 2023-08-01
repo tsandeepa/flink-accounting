@@ -75,6 +75,11 @@
 
 .sec-about__feature {
   text-align: center;
+  background: #f8f8f8;
+  padding: 28px;
+  background: #1979a7;
+  background: linear-gradient(326deg, rgba(25, 121, 167, 0) 0%, rgba(238, 235, 242, 0.37) 100%);
+  border-radius: 30px;
 }
 
 .sec-about__feature h4 {
@@ -142,6 +147,22 @@
   }
   .main-services .service-view h5 {
     font-size: 18px !important;
+  }
+  .services .service-img img {
+    width: 42%;
+  }
+  .services .service-desc {
+    padding: 0;
+  }
+  .sec-about__options {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .sec-about__feature img {
+    max-width: 100px;
+  }
+  .sec-about .title-p {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=services.css.map */
