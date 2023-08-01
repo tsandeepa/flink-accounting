@@ -178,10 +178,11 @@ body {
 @media (max-width: 800px) {
   .sec-title-main {
     font-size: 32px;
-    margin: 10px 0;
+    margin: 30px 0;
   }
   .section-wrap-box {
     .row {
+      margin-bottom: 40px;
       &:nth-child(odd) {
         flex-direction: column-reverse;
       }
