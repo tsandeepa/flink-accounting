@@ -16,6 +16,7 @@
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .our-clients ul li img {
