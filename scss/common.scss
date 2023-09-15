@@ -175,6 +175,12 @@ body {
   }
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  align-items: start;
+  padding-top: 40px;
+}
+
 @media (max-width: 800px) {
   .sec-title-main {
     font-size: 32px;
